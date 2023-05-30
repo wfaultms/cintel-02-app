@@ -68,3 +68,9 @@ Shiny is the most popular interactive web app framework for R (another popular d
 To get started, read [SHINY.md](SHINY.md). 
 
 To learn more about how it compares to other popular options, check out this 16 min video on [YouTube](https://www.youtube.com/watch?v=LDd2ao5KjKM).
+
+## Interactive App
+
+With Shiny for Python, we can create interactive apps with Python.
+
+![Interactive Web App Written in Python](./images/InteractiveApp.PNG)
