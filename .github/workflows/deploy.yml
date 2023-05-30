@@ -29,4 +29,5 @@ jobs:
             SHINYAPPS_TOKEN: ${{ secrets.SHINYAPPS_TOKEN }}
         run: |
             pip install rsconnect-python
-            python deploy.py
+            rsconnect deploy shiny . --name denisecase --title cintel-02-app
+
