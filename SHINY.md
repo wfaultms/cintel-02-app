@@ -24,7 +24,7 @@ Install some additional content into your global Python for best results.
 open your terminal (PowerShell on Windows, Terminal on Mac/Linux) and
 install these to your default Python using the commands below. 
 Wait for each command to finish before running the next one.
-We install `rsconnect-python` to deploy our app to shinyapps.io later.
+We use `rsconnect-python` to deploy our app to shinyapps.io later.
 
 ```shell
 python -m pip install --upgrade pip wheel
@@ -73,7 +73,7 @@ After activating it, notice how the prompt changes to show the active virtual en
 - On Windows: `.venv\Scripts\activate`
 - On macOS/Linux: `source .venv/bin/`
 
-## Install Libaries into Virtual Environment
+## Install Libraries into Virtual Environment
 
 Install current libraries used in this project into our virtual environment.
 
@@ -84,11 +84,11 @@ python -m pip install --upgrade -r requirements.txt
 
 It may take a while. It's relatively complex to deal with Python environments,
 but these are common activities for analysts, and we'll do them often enough, 
-you'll eventually get quite comfortable with it.  
+it'll become somewhat routine.  
 
 ## Run the App
 
-Verify your virtual environment is **activated** so you have all the free code you need, 
+Verify your virtual environment is **activated**, 
 then run the app with the following command:
 
 ```shell
@@ -96,7 +96,7 @@ shiny run --reload app.py
 ```
 
 Open the app by following the instructions provided in the terminal. 
-For example, try CRTL CLICK (hit both at the same time) on the URL displayed (http://127.0.0.1:8000).
+For example, try CTRL CLICK (hit both at the same time) on the URL displayed (http://127.0.0.1:8000).
 
 Hit CTRL c (at the same time) to quit the app. 
 If it won't stop, close the terminal window.
@@ -105,7 +105,7 @@ before running the app again.
 
 🚀 Rocket Tip: In the VS Code Terminal, to get the last command you ran, hit the **up arrow** key.
 
-🚀 Rocket Tip: in the VS Code Terminal, to accept a suggestion , hit the **right arrow** key to accept it, then ENTER to run it.
+🚀 Rocket Tip: in the VS Code Terminal, hit the **right arrow** key to accept a suggested command, then ENTER to run it.
 
 ## Troubleshooting
 

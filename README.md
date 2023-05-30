@@ -1,9 +1,8 @@
 # Continuous Intelligence and Interactive Analytics - Initial App
 
+- Interactive app: [cintel-02-app](https://denisecase.shinyapps.io/cintel-02-app/)
 - Repository: [cintel-02-app](https://github.com/denisecase/cintel-02-app)
-- Website: [cintel-02-app](https://denisecase.github.io/cintel-02-app/)
 - Author: [Denise Case](https://github.com/denisecase)
-
 
 In this module, we add another important tool: Python. 
 If you are new to Python, don't worry, it's relatively easy to learn and very powerful.
@@ -44,7 +43,7 @@ Copy this starter repository into your own GitHub account by clicking the 'Fork'
 
 ### Make Changes in VS Code
 
-With your respository folder open in VS Code:
+With your repository folder open in VS Code:
 
 1. Click on this README.md file for editing.
 1. Update the README.md file by changing your name in the author link above.
