@@ -1,0 +1,4 @@
+htmltools 
+ipywidgets
+shiny 
+shinyswatch 
