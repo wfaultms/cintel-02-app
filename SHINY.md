@@ -21,31 +21,29 @@ Use the command that works instead of `python` in the following instructions.
 ## Install and Upgrade Python Tools Globally
 
 Install some additional content into your global Python for best results. 
-open your terminal (PowerShell on Windows, Terminal on Mac/Linux) and
-install these to your default Python using the commands below. 
+Open a terminal (PowerShell on Windows, Terminal on Mac/Linux) and run the two commands below to install these to the default Python.
 Wait for each command to finish before running the next one.
-We use `rsconnect-python` to deploy our app to shinyapps.io later.
+We need the current `rsconnect-python` to deploy our app to shinyapps.io.
 
 ```shell
 python -m pip install --upgrade pip wheel
-python -m pip install --upgrade black ruff pyright
 python -m pip install --upgrade git+https://github.com/rstudio/rsconnect-python.git
 ```
 
-You must have reconnect-python installed for the next step.
+🚩 You must have `reconnect-python` installed before continuing.
 
 ## Authorize shinyapps.io
 
 Shiny offers a free service for hosting Shiny apps. It's pretty easy to use.
 Using a web browser (I use Chrome), sign in to your free shinyapps.io account.
-For convenience, I sign in using GitHub.
+I sign in using GitHub (we'll sign in often and the convenience helps).
 
 1. On the Getting Started page, click on the "Start with Python" tab. 
 1. Click "Show Secret"
 1. Click "Copy to Clipboard". Follow the instructions. Mine said
 1. Hit Ctrl c / ENTER to copy the provided command to the clipboard. 
-1. Open a terminal window. (Terminal on Mac/Linux, PowerShell on Windows).
-1. Click in the terminal window to paste the command and hit ENTER to run it.
+1. Open a terminal. (Terminal on Mac/Linux, PowerShell on Windows).
+1. Click in the terminal to paste the command and hit ENTER to run it.
 
 ![Get the Command to Authorize shinyapps.io](images/GetCommandToAuthorizeShinyAppsdotIO.PNG)
 
@@ -83,8 +81,8 @@ python -m pip install --upgrade -r requirements.txt
 ```
 
 It may take a while. It's relatively complex to deal with Python environments,
-but these are common activities for analysts, and we'll do them often enough, 
-it'll become somewhat routine.  
+but these are common activities. 
+We'll do them often, and it'll become routine.  
 
 ## Run the App
 
