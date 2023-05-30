@@ -84,3 +84,14 @@ Log in to [shinyapps.io](https://www.shinyapps.io/) to verify.
 
 🚀 Rocket Tip: If you have any old apps that didn't deploy (or when you're done with an app) first **archive** the app, then **delete** it. 
 We get 5 apps free with the [free plan](https://www.shinyapps.io/#pricing-anchor).
+
+-----
+
+## ⚠️ Delete Hosted App Before Pushing to GitHub
+
+The GitHub action deploy.yml does not automatically delete an existing app from shinyapps.io so we can redeploy.
+
+Before pushing to GitHub, login to [shinyapps.io](https://www.shinyapps.io/) and view the list of applications. 
+
+- First archive the app.
+- Then delete the archived app.
