@@ -75,12 +75,11 @@ After activating it, notice how the prompt changes to show the active virtual en
 
 ## Install Libaries into Virtual Environment
 
-Install the libraries we need for this project into our virtual environment.
+Install current libraries used in this project into our virtual environment.
 
 ```shell
-python -m pip install --upgrade pip wheel shiny shinyswatch 
-python -m pip install --upgrade htmltools ipywidgets matplotlib
-python -m pip install --upgrade git+https://github.com/rstudio/rsconnect-python.git
+python -m pip install --upgrade pip wheel 
+python -m pip install --upgrade -r requirements.txt
 ```
 
 It may take a while. It's relatively complex to deal with Python environments,

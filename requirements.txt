@@ -1,4 +1,5 @@
 htmltools 
 ipywidgets
+rsconnect-python
 shiny 
 shinyswatch 
