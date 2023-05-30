@@ -30,4 +30,3 @@ jobs:
         run: |
             pip install rsconnect-python
             rsconnect deploy shiny . --title cintel-02-app
-
