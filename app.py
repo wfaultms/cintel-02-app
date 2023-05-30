@@ -13,6 +13,7 @@ from shiny import *
 
 
 # TODO: Change the shinyswatch theme to morph, cosmo, darkly, flatly, sketchy (or other shinyswatch theme)
+# Preview at https://bootswatch.com/
 app_ui = ui.page_navbar(
     shinyswatch.theme.minty(),
     ui.nav(
