@@ -29,5 +29,4 @@ jobs:
             SHINYAPPS_TOKEN: ${{ secrets.SHINYAPPS_TOKEN }}
         run: |
             pip install rsconnect-python
-            python -m rsconnect deploy -t $SHINYAPPS_TOKEN -s $SHINYAPPS_SECRET -a $SHINYAPPS_ACCOUNT ./cintel-02-app
-        
+            python deploy.py

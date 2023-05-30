@@ -67,3 +67,10 @@ When you finish, your GitHub secrets should look like the following.
 
 ![GitHub Secrets](./images/GitHub-ShinyApps-RepositorySecrets-DONE.PNG)
 
+## GitHub Actions
+
+After any commit and push to the main branch of the GitHub repository,
+GitHub Actions will automatically deploy the app to shinyapps.io.
+We can watch the progress in the GitHub **Actions** tab.
+
+![GitHub Actions](./images/GitHub-ActionsTab-After-Commit-and-Push.PNG)
