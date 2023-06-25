@@ -12,36 +12,33 @@ They are not required but can improve workflow, increase productivity, and make 
 
 -----
 
-## Sign Up for shinyapps.io (Free Account)
+## Prerequisites
 
-Sign up for a free account on shinyapps.io. 
+
+1. Sign up for a free account on shinyapps.io. 
 You can sign in via GitHub for convenience.
 
-## Copy This Repository
+2 Copy this starter repository into your own GitHub account by clicking the 'Fork' button at the top of this page. 
 
-Copy this starter repository into your own GitHub account by clicking the 'Fork' button at the top of this page. 
-
------
-
-## Set Up Your Machine
-
-### Install Python
-
-1. Download and install Python 3 from the [official Python website](https://www.python.org/). Don't forget to add Python to your PATH during installation.
+3. Install Python 3 from the [official Python website](https://www.python.org/). Add Python to your PATH during installation.
 
 -----
 
-## Customize Your Web App
+## First: Modify Your README.md
 
-### Get the Code to your Local Machine
+You have a copy of this repository in your own GitHub account.
+The README.md file is the first thing people see when they visit your repository.
+Customize your README.md file to include your name and links to your GitHub account.
+
+### Step 1. Get the Code to your Machine
     
 1. Open VS Code and from the menu, select **View** / **Command Palette**.
 1. Type "Git: Clone" in the command palette and select it.
 1. Enter the URL (web address) of your forked GitHub repository (make sure it contains your GitHub username - not denisecase).
-1. Choose a directory on your local machine (e.g., Documents folder) to store the project.
+1. Choose a directory on your machine (e.g., Documents folder) to store the project.
 1. If prompted, sign in to GitHub from VS Code.
 
-### Make Changes in VS Code
+### Step 2. Edit README.md in VS Code
 
 With your repository folder open in VS Code:
 
@@ -49,28 +46,26 @@ With your repository folder open in VS Code:
 1. Update the README.md file by changing your name in the author link above.
 1. Update the links in the README.md file to your username instead of denisecase.
 
-### Save Your Changes
+### Step 3. Save Your Changes to GitHub
 
 1. After making changes, send them back up to GitHub.
 1. In VS Code, find the "Source Control" icon and click it.
 1. Important: Enter a brief commit message describing your changes.
 1. Change the "Commit" button dropdown to "Commit and Push" to send your changes back to GitHub.
 
+Excellent work!  Take a break and celebrate your progress. 
+There's a lot of useful skills involved in this process.
+
+
 -----
 
-## Shiny For Python
+## Second: Get Started with Shiny For Python
 
-With the advent of WASM (Web Assembly), it is now possible to run Python in the browser.
-We can write the logic for our interactive apps using Python instead of JavaScript.
+When you're ready, continue on to the next section to 
+set up your local Python environment and get started with Shiny for Python.
 
-Shiny is the most popular interactive web app framework for R (another popular data science language) and recently became available for Python. 
+See [SHINY.md](SHINY.md). 
 
-To get started, read [SHINY.md](SHINY.md). 
-
-To learn more about how it compares to other popular options, check out this 16 min video on [YouTube](https://www.youtube.com/watch?v=LDd2ao5KjKM).
-
-## Interactive App
-
-With Shiny for Python, we can create interactive apps with Python.
+With Shiny for Python, we can create interactive apps using **Python**.
 
 ![Interactive Web App Written in Python](./images/InteractiveApp.PNG)
