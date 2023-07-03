@@ -7,8 +7,14 @@
 .vscode/
 
 # Python Virtual environment folders
+# Modified to allow ignore of named virtual environments
 .venv/
+.venv_*/
 venv/
+
+# Local working and experimenting files
+try*.py
+try*.ipynb
 
 # Jupyter Notebook
 .ipynb_checkpoints
