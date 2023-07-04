@@ -7,7 +7,7 @@ We'll deploy the app to [shinyapps.io](http://www.shinyapps.io/) by running a co
 - Use Terminal / New Terminal to open a new Terminal window.  
 - In the command below, the dot (.) means "this folder here".
 
-TODO: Change this Markdown file to reflect your username instead of denisecase.
+Changed the Markdown file to reflect your username instead of denisecase.
 
 ```shell
 rsconnect deploy shiny . --name wfault-apps --title cintel-02-app
