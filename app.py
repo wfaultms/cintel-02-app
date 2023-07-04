@@ -12,38 +12,38 @@ import shinyswatch
 from shiny import *
 
 
-# TODO: Change the shinyswatch theme to morph, cosmo, darkly, flatly, sketchy (or other shinyswatch theme)
+# Changed theme to cosmo because I liked the name.
 # Preview at https://bootswatch.com/
 app_ui = ui.page_navbar(
-    shinyswatch.theme.minty(),
+    shinyswatch.theme.cosmo(),
     ui.nav(
         "Home",
         ui.layout_sidebar(
             ui.panel_sidebar(
                 ui.h2("Sidebar Panel"),
                 ui.tags.hr(),
-                ui.h3("User Interaction Here"),
+                ui.h3("Enter Information Here:"),
                 ui.input_text("name_input", "Enter your name", placeholder="Your Name"),
                 ui.input_text("language_input", "Enter your favorite language(s)", placeholder="Favorite Programming Language(s)"),
                 ui.tags.hr(),
             ),
             ui.panel_main(
-                ui.h2("Main Panel with Reactive Output"),
+                ui.h2("Bill Ault's Main Panel with Reactive Output"),
                 ui.output_text_verbatim("welcome_output"),
                 ui.output_text_verbatim("insights_output"),
             ),
         ),
     ),
-    # TODO: Update the links to reflect your own about, GitHub repo, and app
-    ui.nav(ui.a("About", href="https://github.com/denisecase")),
-    ui.nav(ui.a("GitHub", href="https://github.com/denisecase/cintel-02-app")),
-    ui.nav(ui.a("App", href="https://denisecase.github.io/cintel-02-app/")),
+    # Links updated (I think).
+    ui.nav(ui.a("About", href="https://github.com/wfaultms")),
+    ui.nav(ui.a("GitHub", href="https://github.com/wfaultms/cintel-02-app")),
+    ui.nav(ui.a("App", href="https://wfaultms.github.io/cintel-02-app/")),
     ui.nav(ui.a("Shiny", href="https://shiny.posit.co/py/")),
     ui.nav(ui.a("Examples", href="https://shinylive.io/py/examples/")),
     ui.nav(ui.a("Themes", href="https://rstudio.github.io/py-shinyswatch/")),
     ui.nav(ui.a("Deploy", href="https://docs.posit.co/shinyapps.io/getting-started.html#working-with-shiny-for-python")),
-    # TODO: Update the title to reflect yourname Dashboard
-    title=ui.h1("Case Dashboard"),
+    # Title of dashboard updated
+    title=ui.h1("Bill's Dashboard"),
 )
 
 
@@ -56,13 +56,13 @@ def server(input, output, session):
     """
 
     # Define the reactive outputs. Tell what to render and how to render it
-    # TODO: Customize the reactive greeting.
+    # Reactive greeting updated.
 
     @output
     @render.text
     def welcome_output():
         user = input.name_input();
-        welcome_string = f'Greetings {user}!';
+        welcome_string = f'Well, howdy there {user}!';
         return welcome_string
 
     @output
