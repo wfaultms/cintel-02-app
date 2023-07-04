@@ -68,4 +68,4 @@ See [SHINY.md](SHINY.md).
 
 With Shiny for Python, we can create interactive apps using **Python**.
 
-![Interactive Web App Written in Python]([./images/app_local_run.PNG](https://github.com/wfaultms/cintel-02-app)https://github.com/wfaultms/cintel-02-app)
+![Interactive Web App Written in Python](https://github.com/wfaultms/cintel-02-app/images/app_local_run.png))
