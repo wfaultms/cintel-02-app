@@ -39,7 +39,7 @@ python -m pip install --upgrade pip wheel
 python -m pip install --upgrade git+https://github.com/rstudio/rsconnect-python.git
 ```
 
-🚩 You must have `reconnect-python` installed before continuing.
+🚩 You must have `reconnect-python` installed globally before continuing.
 
 ### 1B Authorize shinyapps.io
 
