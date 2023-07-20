@@ -39,7 +39,7 @@ python -m pip install --upgrade pip wheel
 python -m pip install --upgrade git+https://github.com/rstudio/rsconnect-python.git
 ```
 
-🚩 You must have `reconnect-python` installed before continuing.
+🚩 You must have `reconnect-python` installed globally before continuing.
 
 ### 1B Authorize shinyapps.io
 
@@ -60,9 +60,14 @@ It's pretty easy to use. There's this one-time setup to authorize your machine t
 
 ## Step 2: Prepare Virtual Environment
 
-We'll set up a local Python environment with the packages we need for this project. 
-We **create** a local virtual environment, **activate** it, and **install** the packages.
-Here's the short version for PowerShell. Run one command at at time and wait for each to finish before running the next one.
+We'll set up a local Python environment with the packages we need for this project in the repository folder on our machine. 
+To prepare a virtual environment, we must A) **create** a local virtual environment, B) **activate** it, and C) **install** the necessary packages.
+
+There's a short version of A, B, and C for experienced people. 
+If new to Python and virtual environments, please skip to the sections 2A, 2B, and 2C below. 
+
+Short version: Open a PowerShell terminal in the **cintel-02-app** folder on your machine. 
+Run one command at at time and wait for each to finish before running the next one.
 
 ```shell
 python -m venv .venv
@@ -71,7 +76,7 @@ python -m pip install --upgrade pip wheel
 python -m pip install --upgrade -r requirements.txt
 ```
  
-🚀 Rocket Tip: Read the instructions below for more details.
+If new to Python and virtual environments - or if not using PowerShell - please refer to sections 2A, 2B, and 2C below. 
 
 ### 2A Create a Virtual Environment
 
